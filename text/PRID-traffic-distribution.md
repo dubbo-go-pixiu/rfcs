@@ -22,7 +22,7 @@ This is the bulk of the RFC. Explain the design in enough detail that:
 
 1. Configure of the canary
 
-```yaml
+```go
 const (
 	canaryByHeader CanaryHeaders = "canary-by-header"
 	canaryWeight                 = "canary-weight"
